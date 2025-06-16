@@ -7,7 +7,7 @@ Funcionalidades
 
 - **Produtor**: Lê mensagens digitadas no terminal e envia para a fila no RabbitMQ.
 - **Consumidor**: Escuta a fila e salva as mensagens recebidas com data/hora em um arquivo `mensagens.txt`.
-- 🖥Interface Web para monitoramento do RabbitMQ.
+- Interface Web para monitoramento do RabbitMQ.
 - Utilização de **Docker** para facilitar a execução do RabbitMQ.
 
 Tecnologias utilizadas
@@ -17,7 +17,7 @@ Tecnologias utilizadas
 - **pika** (biblioteca Python para RabbitMQ)
 - **Docker Compose** (para orquestrar o ambiente RabbitMQ)
 
-⚙Pré-requisitos
+Pré-requisitos
 
 - Python instalado (https://www.python.org/downloads/)
 - Docker instalado (https://www.docker.com/products/docker-desktop)
